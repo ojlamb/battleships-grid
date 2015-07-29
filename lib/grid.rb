@@ -17,6 +17,9 @@ class Grid
   end
 
   def insert_ship(ship, coordinate)
-    = ship
+    flat_arr = coordinate.flatten
+    x = flat_arr[0]
+    y = flat_arr[1]
+    @matrix[x][y] = ship
   end
 end

@@ -1,7 +1,7 @@
 require_relative "grid"
 
 class Board
-	attr_reader :ships
+	attr_reader :ships, :grid
 	def initialize
 		@ships = []
 		@grid = Grid.new
