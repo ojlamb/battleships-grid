@@ -15,4 +15,8 @@ class Grid
    fresh_cell = @character
     Array.new(size){Array.new(size) {fresh_cell}}
   end
+
+  def insert_ship(ship, coordinate)
+    = ship
+  end
 end
