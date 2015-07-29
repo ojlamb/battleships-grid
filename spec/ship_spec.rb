@@ -9,4 +9,8 @@ describe Ship do
     expect(subject.size).to be > 0
   end
 
+  it "should have a default direction" do
+  	expect(subject.direction).to eq :N
+  end
+
 end
