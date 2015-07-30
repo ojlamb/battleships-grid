@@ -11,8 +11,6 @@ describe Board do
 		expect(subject).to respond_to(:place_ship).with(3).arguments
 	end
 
-	it "puts ship into ships array" do
-		subject.place_ship(ship, :coordinate, :facing)
-		expect(subject.ships).to include(ship)
-	end
+
+
 end

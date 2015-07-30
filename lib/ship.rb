@@ -7,6 +7,7 @@ class Ship
     @size = 1
     @coordinates
     @direction = :N
+    @material = :s
   end
 
   def placed?

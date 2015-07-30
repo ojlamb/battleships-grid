@@ -12,4 +12,9 @@ class Cell
 	def has_been_hit?
 		@hit
 	end
+
+	def change_type(ship)
+		@type = ship
+	end
+
 end
