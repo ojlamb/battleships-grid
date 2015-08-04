@@ -7,6 +7,6 @@ Battleships is a game where each player has a board upon which they can place a 
 The purpose of this project was to further my understanding of Object Oriented Programming, Behavioral Driven Design, and Test Driven Development. 
 
 **To run:**
--ruby 2.2.1
--rspec 3.3.2
+* ruby 2.2.1
+* rspec 3.3.2
 
