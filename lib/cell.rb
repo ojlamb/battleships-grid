@@ -16,5 +16,4 @@ class Cell
 	def change_type(ship)
 		@type = ship
 	end
-
 end
